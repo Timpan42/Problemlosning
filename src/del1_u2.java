@@ -13,13 +13,18 @@ public class del1_u2 {
     private static String camelCase(String s) {
         char x;
         char v;
+        char [] sp;
+        char ord = 0;
+        String word = "";
         for (int i = 0; i < s.length(); i++) {
             v = s.charAt(i);
+            sp = char.slpit
             if (v == ' ') {
                 x = s.charAt(i + 1);
-                x = Character.toUpperCase(x);
+                ord = Character.toUpperCase(x);
+                word = Character.toString(ord);
             }
         }
-        return s;
+        return word;
     }
 }
